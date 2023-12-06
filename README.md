@@ -41,6 +41,7 @@ Total jumlah IP adalah 4255 dan berada di Netmask /19.
 ![Alt text](images/image-5.png)
 
 - Aura :
+
 ```
 auto eth0
 iface eth0 inet dhcp
@@ -62,6 +63,7 @@ iface eth3 inet static
 ```
 
 - Friren :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -80,6 +82,7 @@ iface eth2 inet static
 ```
 
 - LakeKorridor :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -89,6 +92,7 @@ iface eth0 inet static
 ```
 
 - Flamme :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -112,6 +116,7 @@ iface eth3 inet static
 ```
 
 - Fern :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -125,6 +130,7 @@ iface eth1 inet static
 ```
 
 - LaubHills :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -134,6 +140,7 @@ iface eth0 inet static
 ```
 
 - AppetitRegion :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -143,6 +150,7 @@ iface eth0 inet static
 ```
 
 - RohrRoad :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -152,6 +160,7 @@ iface eth0 inet static
 ```
 
 - Himmel :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -165,6 +174,7 @@ iface eth1 inet static
 ```
 
 - SchwerMountains :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -174,6 +184,7 @@ iface eth0 inet static
 ```
 
 - Denken :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -187,6 +198,7 @@ iface eth1 inet static
 ```
 
 - RoyalCapital :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -196,6 +208,7 @@ iface eth0 inet static
 ```
 
 - WillieRegion :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -205,6 +218,7 @@ iface eth0 inet static
 ```
 
 - Eisen :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -233,6 +247,7 @@ iface eth4 inet static
 ```
 
 - Stark :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -242,6 +257,7 @@ iface eth0 inet static
 ```
 
 - Richter :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -251,6 +267,7 @@ iface eth0 inet static
 ```
 
 - Revolter :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -260,6 +277,7 @@ iface eth0 inet static
 ```
 
 - Lugner :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -278,6 +296,7 @@ iface eth2 inet static
 ```
 
 - TurkRegion :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -287,6 +306,7 @@ iface eth0 inet static
 ```
 
 - GrobeForest :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -296,6 +316,7 @@ iface eth0 inet static
 ```
 
 - Linie :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -314,6 +335,7 @@ iface eth2 inet static
 ```
 
 - GrainzChannel :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -323,6 +345,7 @@ iface eth0 inet static
 ```
 
 - Lawine :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -336,6 +359,7 @@ iface eth1 inet static
 ```
 
 - BredtRegion :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -346,6 +370,7 @@ iface eth0 inet static
 ```
 
 - Heiter :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -359,6 +384,7 @@ iface eth1 inet static
 ```
 
 - Sein :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -368,6 +394,7 @@ iface eth0 inet static
 ```
 
 - ReigelCanyon :
+
 ```
 auto eth0
 iface eth0 inet static
@@ -381,6 +408,7 @@ iface eth0 inet static
 ### Routing
 
 - Aura :
+
 ```
 route add -net 192.194.0.160 netmask 255.255.255.224 gw 192.194.0.134
 route add -net 192.194.0.128 netmask 255.255.255.252 gw 192.194.0.134
@@ -403,6 +431,7 @@ route add -net 192.194.0.0 netmask 255.255.255.252 gw 192.194.0.138
 ```
 
 - Frieren :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.133
 route add -net 192.194.24.0 netmask 255.255.248.0 gw 192.194.0.130
@@ -413,6 +442,7 @@ route add -net 192.194.0.152 netmask 255.255.255.248 gw 192.194.0.130
 ```
 
 - Flamme :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.129
 route add -net 192.194.24.0 netmask 255.255.248.0 gw 192.194.0.30
@@ -420,6 +450,7 @@ route add -net 192.194.0.152 netmask 255.255.255.248 gw 192.194.0.26
 ```
 
 - Eisen :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.137
 route add -net 192.194.12.0 netmask 255.255.252.0 gw 192.194.0.22
@@ -431,11 +462,13 @@ route add -net 192.194.16.0 netmask 255.255.252.0 gw 192.194.0.18
 ```
 
 - Lugner :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.17
 ```
 
 - Linie :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.21
 route add -net 192.194.0.192 netmask 255.255.255.192 gw 192.194.0.2
@@ -443,27 +476,32 @@ route add -net 192.194.12.0 netmask 255.255.252.0 gw 192.194.0.2
 ```
 
 - Lawine :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.1
 route add -net 192.194.12.0 netmask 255.255.252.0 gw 192.194.0.195
 ```
 
 - Heiter :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.193
 ```
 
 - Fern :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.29
 ```
 
 - Himmel :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.25
 ```
 
 - Denken :
+
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.141
 ```
@@ -471,3 +509,41 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.141
 - Untuk pengecekan apakah routing sudah benar, dapat melakukan ping antar router dan node dengan acak.
 
 ## CIDR menggunakan CPT
+
+### Membuat Topologi & Subnetting
+
+![Alt text](images/image-6.png)
+
+![Alt text](images/image-7.jpeg)
+
+### Perhitungan IP & Penggabungan Subnet
+
+[Link Spreadsheet](https://docs.google.com/spreadsheets/d/115_dvdFe_R30PJp_okh2Cx94XIaN5sJoWD3NaztBQeM/edit#gid=699820178)
+
+### Membuat Tree :
+
+![Alt text](images/image-8.jpg)
+
+### Mengatur IP pada Interface :
+
+- Pada Router (Contoh)
+
+  ![Alt text](images/image-9.png)
+
+- Pada Client (Contoh)
+
+  ![Alt text](images/image-10.png)
+
+### Routing :
+
+![Alt text](images/image-11.png)
+
+Contoh :
+
+Jika ingin melakukan routing pada `Flamme`, maka kita perlu mengkonfigurasi routing untuk A7, A10, dan router-router yang bersebelahan dengan `Flamme`.
+
+![Alt text](images/image-12.png)
+
+### Contoh Successful saat mengirimkan pesan :
+
+![Alt text](images/image-14.png)
