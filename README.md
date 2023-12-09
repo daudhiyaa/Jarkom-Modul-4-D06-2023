@@ -538,7 +538,7 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.141
 
 Contoh :
 
-Jika ingin melakukan routing pada `Flamme`, maka kita perlu mengkonfigurasi routing untuk A7, A10, dan router-router yang bersebelahan dengan `Flamme`.
+Jika ingin melakukan routing pada `Flamme`, maka kita perlu mengkonfigurasi routing untuk A19, A16, dan router-router yang bersebelahan dengan `Flamme`.
 
 ![Alt text](images/image-12.png)
 
