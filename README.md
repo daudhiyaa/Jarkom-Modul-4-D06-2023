@@ -514,8 +514,6 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.194.0.141
 
 ![Alt text](images/image-6.png)
 
-![Alt text](images/image-7.jpeg)
-
 ### Perhitungan IP & Penggabungan Subnet
 
 [Link Spreadsheet](https://docs.google.com/spreadsheets/d/115_dvdFe_R30PJp_okh2Cx94XIaN5sJoWD3NaztBQeM/edit#gid=699820178)
